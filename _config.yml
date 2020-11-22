@@ -1,0 +1,20 @@
+# Site settings
+author: Nathan Lewis
+title: Educator to Developer
+header-img: img/home-bg.png
+email: n.lewis.perc@gmail.com
+copyright_name: Nathan Lewis
+description: > # this means to ignore newlines until "baseurl:"
+  Changing careers from education to web dev
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  nlewis84
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
