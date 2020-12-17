@@ -13,7 +13,7 @@ I am a student at Flatiron School and have really been enjoying the last month o
 * Must provide access to data from a web page
 * The data provided must go at least one level deep
 * Should not be too similar to a project used in a previous assignment
-* Must use goo OO (Object Oriented) design patterns (scrape once per web page!)
+* Must use good OO (Object Oriented) design patterns (scrape once per web page!)
 
 # What next?
 I asked myself, what is some sort of data source that I use on a daily basis. I narrowed it down to two possibilities: 
