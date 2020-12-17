@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Experience Building a CLI Project"
-date:       2020-12-17 00:35:10 +0000
+date:       2020-12-16 19:35:10 -0500
 permalink:  my_experience_building_a_cli_project
 ---
 
@@ -22,7 +22,7 @@ I asked myself, what is some sort of data source that I use on a daily basis. I 
 
 I decided to go with the first option of www.tapspace.com.
 
-Next, I decided on some variables that I would like to sort data by. I went with Number of Players, Difficulty, Composer, and UIL. UIL is the the governing body in charge of basically all school run contests and competitions in Texas and I wanted to cross check pieces of music against that list. This is functionality that is not in my current iteration, but I would like to add it down the road.
+Next, I decided on some variables that I would like to sort data by. I went with Number of Players, Difficulty, Composer, and UIL. UIL is the governing body in charge of basically all school run contests and competitions in Texas and I wanted to cross check pieces of music against that list. This is functionality that is not in my current iteration, but I would like to add it down the road.
 
 From here, I mapped out what my classes should be. I went with the following classes:
 * CLI
@@ -32,16 +32,17 @@ From here, I mapped out what my classes should be. I went with the following cla
 
 Next, I grabbed a scratch piece of paper and began to brainstorm what sort of displays for my CLI I wanted to build.
 
-Finally, I found this [great video by Beth Schofield](https://www.youtube.com/watch?v=KwBMwZ89Hj8) and building a CLI Data Gem.
+Finally, I found this [great video by Beth Schofield](https://www.youtube.com/watch?v=KwBMwZ89Hj8) about building a CLI Data Gem.
 
 [Part 2 of that video](https://www.youtube.com/watch?v=TaRZ9Z8dK2s)
+
 [Part 3 of that video](https://www.youtube.com/watch?v=VMAW3VjPUPw)
 
 After that, I wrote out a flowchart showing how the user would interact with my CLI.
 
-![](https://drive.google.com/file/d/1_j66CTxXJoHHAOn4dqvCYc7ROtoyr-_j/view?usp=sharing)
+[Flowchart.jpeg](https://drive.google.com/file/d/1_j66CTxXJoHHAOn4dqvCYc7ROtoyr-_j/view?usp=sharing)
 # Time to Code!
-At this point, I began to setup my classes. I knew the Ensemble class was going to be my bread and butter, but I didn't know how I would be initializes an instance in that class yet. I decided to get my scraper up and running first. Using Pry, I was able to get everything setup there. Due to the website not loading in all of the pieces in their library (without scrolling) I took a LOOONG detour trying to figure out a way to get Watir working with my program. I eventually decided on the advice of a mentor to not worry about this. Here's what my scrape method looks like:
+At this point, I began to set up my classes. I knew the Ensemble class was going to be my bread and butter, but I didn't know how I would initialize an instance in that class yet. I decided to get my scraper up and running first. Using Pry, I was able to get everything setup there. Due to the website not loading in all of the pieces in their library (without scrolling) I took a LOOONG detour trying to figure out a way to get Watir working with my program. I eventually decided on the advice of a mentor to not worry about this. Here's what my scrape method looks like:
 
 ```
     def scrape(site)
@@ -85,7 +86,7 @@ Once I bailed on using Watir, my next struggle was that I was using mass assignm
     end
 ```
 
-and this line in my Scraper was did not have a find or create by name method.
+and this line in my Scraper did not have a find or create by name method.
 
 ```
 composer = PercussionEnsembles::Composer.find_or_create_by(composer_name)
