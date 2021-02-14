@@ -31,7 +31,7 @@ If you are working on your own Rails project, I would say that there are two mai
 
 I created this file using app.diagrams.net. You will potentially go through several different iterations of your associations, so don't let that discourage you. For instance, I started without the Audition_instruments join table. I was getting some strange things happening and models not saving properly….with the help of one of the Flatiron leads, I was able to realize the need for an additional join table. Also, missing from this picture is the user assignable attribute that exists on Audition_instruments.
 
-![Routes.rb](https://ibb.co/g44w0Md)
+![Routes.rb](https://i.ibb.co/9ZZ2x9h/Code-am-XNz47fl-P.png)
 
 This is what I ended up with for my routes. As you can see, I had to do some work to get my nested routes working the way I wanted. For your project, you may find it beneficial to think through and write out the experience you want your user to have when creating instances of models in your project. This will help you decide how to best setup your nested routes/forms.
 
@@ -53,7 +53,7 @@ I learned how to declare global CSS variables, thanks to this [MDN page.](https:
 
 I used this as I was trying to find a color palette that I really liked.  It was super tedious to go through and change every individual color hex code….so I thought, let's DRY this up. I ended up also using this for my fonts across my CSS file.
 
-![Global CSS Variables](https://ibb.co/hcrG7FJ)
+![Global CSS Variables](https://i.ibb.co/tzn0mpT/Code-V2fqjx-GCIK.png)
 
 
 I additionally used it to create the gradient. This is a very cool feature, and I am so excited that I figured this out! Colors and font sizes were sourced from the two websites below.
