@@ -10,7 +10,7 @@ I have just wrapped up my third project through Flatiron School, the Rails Proje
 ## Band Audition
 I decided to build an app for my wife to use. She is currently a middle school band director. Part of her responsibilities are to audition students for which instrument they are best suited for. This app would replace the Google Sheet she currently uses.
 
-### Features
+## Features
 * User Accounts
 * Users can create many Auditions
 * Users can join auditions they did not create through the use of "Join" codes
@@ -20,7 +20,7 @@ I decided to build an app for my wife to use. She is currently a middle school b
 
 That last feature is important because it will allow my wife to display the "results" on a projector.
 
-### Planning
+## Planning
 
 If you are working on your own Rails project, I would say that there are two main things that you plan extensively before you start writing any code:
 
@@ -35,7 +35,7 @@ I created this file using app.diagrams.net. You will potentially go through seve
 
 This is what I ended up with for my routes. As you can see, I had to do some work to get my nested routes working the way I wanted. For your project, you may find it beneficial to think through and write out the experience you want your user to have when creating instances of models in your project. This will help you decide how to best setup your nested routes/forms.
 
-### Coding
+## Coding
 Once I felt good about my plan and had diagrammed the entire User experience, I moved on to actually writing the code. I have found that I work best by building parts in this order:
 
 * Models
@@ -47,7 +47,7 @@ Once I felt good about my plan and had diagrammed the entire User experience, I 
 * Move all logic to the Model
 * DRY up all code
 
-## Declaring Global CSS Variables
+# Declaring Global CSS Variables
 
 I learned how to declare global CSS variables, thanks to this [MDN page.](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 
@@ -57,7 +57,7 @@ I used this as I was trying to find a color palette that I really liked.  It was
 
 
 I additionally used it to create the gradient. This is a very cool feature, and I am so excited that I figured this out! Colors and font sizes were sourced from the two websites below.
-## Resources
+# Resources
 These are some of the amazing resources that I keep coming back to:
 
 * [Diagram.net](https://app.diagram.net) -- Free Online Diagram Software...great for planning!
