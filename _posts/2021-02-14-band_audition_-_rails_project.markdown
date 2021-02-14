@@ -27,7 +27,7 @@ If you are working on your own Rails project, I would say that there are two mai
 * Model Associations
 * Nested Routes/Forms
 
-![](https://ibb.co/c8p6mz8)
+![https://ibb.co/c8p6mz8](https://ibb.co/c8p6mz8)
 
 I created this file using app.diagrams.net. You will potentially go through several different iterations of your associations, so don't let that discourage you. For instance, I started without the Audition_instruments join table. I was getting some strange things happening and models not saving properly….with the help of one of the Flatiron leads, I was able to realize the need for an additional join table. Also, missing from this picture is the user assignable attribute that exists on Audition_instruments.
 
