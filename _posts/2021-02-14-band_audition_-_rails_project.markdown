@@ -5,7 +5,7 @@ date:       2021-02-14 15:47:11 -0500
 permalink:  band_audition_-_rails_project
 ---
 
-I have just wrapped up my third project through Flatiron School, the Rails Project. Check it out [here.](https://github.com/nlewis84/Band-Audition).  [Here is a walkthrough](https://youtu.be/_gg8VRFpIto) if you are interested in seeing it in action.
+I have just wrapped up my third project through Flatiron School, the Rails Project. Check it out [here.](https://github.com/nlewis84/Band-Audition)  [Here is a walkthrough](https://youtu.be/_gg8VRFpIto) if you are interested in seeing it in action.
 
 ## Band Audition
 I decided to build an app for my wife to use. She is currently a middle school band director. Part of her responsibilities are to audition students for which instrument they are best suited for. This app would replace the Google Sheet she currently uses.
