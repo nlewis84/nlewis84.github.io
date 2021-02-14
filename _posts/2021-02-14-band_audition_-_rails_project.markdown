@@ -60,7 +60,7 @@ I additionally used it to create the gradient. This is a very cool feature, and 
 # Resources
 These are some of the amazing resources that I keep coming back to:
 
-* [Diagram.net](https://app.diagram.net) -- Free Online Diagram Software...great for planning!
-* [Coolers](https://coolors.co/palettes/trending) -- Trending color palettes!
-* [Type Scale](https://type-scale.com/) -- An adjustable guide for building consistent font sizes on your website
+* https://app.diagram.net -- Free Online Diagram Software...great for planning!
+* https://coolors.co/palettes/trending -- Trending color palettes!
+* https://type-scale.com/ -- An adjustable guide for building consistent font sizes on your website
 
