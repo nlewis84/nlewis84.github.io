@@ -8,6 +8,7 @@ permalink:  javascript_project_-_sightwords
 I have just wrapped up my fourth project through Flatiron School, the JavaScript Project.
 
 [Sightwords - Frontend](https://github.com/nlewis84/sightwords_frontend)
+
 [Sightwords - Backend](https://github.com/nlewis84/sightwords_backend)
 
 ## Sightwords
