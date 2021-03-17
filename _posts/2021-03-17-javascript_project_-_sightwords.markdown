@@ -1,11 +1,14 @@
 ---
 layout: post
 title:      "JavaScript Project - Sightwords"
-date:       2021-03-17 17:41:20 +0000
+date:       2021-03-17 13:41:21 -0400
 permalink:  javascript_project_-_sightwords
 ---
 
 I have just wrapped up my fourth project through Flatiron School, the JavaScript Project.
+
+[Sightwords - Frontend](https://github.com/nlewis84/sightwords_frontend)
+[Sightwords - Backend](https://github.com/nlewis84/sightwords_backend)
 
 ## Sightwords
 In planning for this project, I wanted to do a throwback to the good ole CLI days and build some slightly more complicated logic behind the scenes. I have a son in Kindergarten and we practice learning to read with sightwords every night. This seemed like a cool opportunity to build something that would be kid friendly, accessible, and applicable in daily life.  
