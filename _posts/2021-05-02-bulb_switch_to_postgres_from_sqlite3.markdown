@@ -6,7 +6,7 @@ permalink:  bulb_switch_to_postgres_from_sqlite3
 ---
 
 
-As a part of my development journey at Flatiron School, I developed several capstone projects the utilized SQLite3 databases. These all worked great for me, but when it came time to get my project up on Heroku I hit a wall!
+As a part of my development journey at Flatiron School, I designed and built several capstone projects the utilized SQLite3 databases. These all worked great for me, but when it came time to get my project up on Heroku I hit a wall!
 
 You will need to change your database to Postgres if you want to go the Heroku route, and here is how I did it.
 
