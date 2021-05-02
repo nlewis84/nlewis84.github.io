@@ -82,25 +82,24 @@ Replace it with something like this:
     database: farout_production
     username: farout
     password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
-# PostgreSQL. Versions 9.3 and up are supported.
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
-development:
-  <<: *default
-  database: farout_development
-test:
-  <<: *default
-  database: farout_test
-
-production:
-  <<: *default
-  database: farout_production
-  username: farout
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
-
+		# PostgreSQL. Versions 9.3 and up are supported.
+    default: &default
+    adapter: postgresql
+    encoding: unicode
+    pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+    
+    development:
+    <<: *default
+    database: farout_development
+    test:
+    <<: *default
+    database: farout_test
+    
+    production:
+    <<: *default
+    database: farout_production
+    username: farout
+    password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
 
 ## 🌳 [optional] Set your environment variable
 
