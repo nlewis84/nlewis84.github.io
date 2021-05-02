@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      ":bulb: Switch to Postgres from SQLite3"
-date:       2021-05-02 21:56:49 +0000
+title:      "💡 Switch to Postgres from SQLite3"
+date:       2021-05-02 17:56:50 -0400
 permalink:  bulb_switch_to_postgres_from_sqlite3
 ---
 
