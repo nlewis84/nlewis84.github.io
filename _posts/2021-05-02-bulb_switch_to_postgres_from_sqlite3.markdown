@@ -10,7 +10,7 @@ As a part of my development journey at Flatiron School, I developed several caps
 
 You will need to change your database to Postgres if you want to go the Heroku route, and here is how I did it.
 
-## :book: Useful resources
+## 📖 Useful resources
 
 This links were very helpful for me making this database change as well as getting everything working on Heroku.
 
@@ -20,7 +20,7 @@ This links were very helpful for me making this database change as well as getti
 
 [Deploying Rails API React App to Heroku](https://dev.to/caicindy87/deploying-rails-api-backend-react-frontend-app-to-heroku-5a25)
 
-## :gem: Update your Gemfile
+## 💎 Update your Gemfile
 
 You will want to remove SQLite3 from your Gemfile and add Postgres.
 
@@ -32,7 +32,7 @@ Add Postgres:
 
 Run `bundle install` to update your Gemfile.lock.
 
-## :ledger: Update your database.yml file
+## 📒 Update your database.yml file
 
 Your database.yml may look something like this:
 
@@ -86,7 +86,7 @@ production:
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
 ```
 
-## :deciduous_tree: [optional] Set your environment variable
+## 🌳 [optional] Set your environment variable
 
 I believe that you can leave the password field blank in your database.yml file, but I have opted to have a password that is stored in my `.env` file in the root directory.
 
@@ -94,7 +94,7 @@ In `.env`, add:
 
 `MYAPP_DATABASE_PASSWORD={{your password here}}`
 
-## :cloud: Start your Postgres Server
+## ☁️ Start your Postgres Server
 
 I have done this several ways.
 
@@ -103,13 +103,13 @@ I have done this several ways.
 
 2nd way can be found [here](https://stackoverflow.com/questions/31645550/postgresql-why-psql-cant-connect-to-server)
 
-## :car: Create and Migrate your database
+## 🚗 Create and Migrate your database
 
 `rake db:setup`
 
 `rake db:migrate`
 
-## :heavy_check_mark: Check your work
+## ✔️ Check your work
 
 `rails s`
 
